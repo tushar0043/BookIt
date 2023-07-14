@@ -1,0 +1,23 @@
+.bookingsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.booking {
+  margin-bottom: 2em;
+}
+
+.noBookings {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.noBookings span {
+  font-size: xx-large;
+  font-weight: 600;
+  color: white;
+  background-color: #222;
+  padding: 1em;
+  border-radius: 10px;
+}

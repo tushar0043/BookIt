@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+  margin-right: 1em;
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.1s ease-in;
+  padding-bottom: 0.2em;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: white;
+  border-bottom: solid 0.5px white;
+}
+
+.title{
+  margin-left: 5px;
+}

@@ -1,0 +1,14 @@
+@keyframes yourAnimation {
+  0.0% {
+    transform: translate(0, -300px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+.animate {
+  animation: yourAnimation 0.5s ease-in 0s 1 normal none;
+}

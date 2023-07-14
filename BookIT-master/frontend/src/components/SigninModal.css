@@ -1,0 +1,27 @@
+.box {
+  color: black !important;
+}
+#input label {
+  width: 100px;
+}
+#input input {
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+#input input:active {
+  box-shadow: 2px;
+}
+
+#title {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+#adminLogin {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}

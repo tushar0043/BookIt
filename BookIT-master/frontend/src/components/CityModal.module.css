@@ -1,0 +1,23 @@
+.cityBox {
+  width: 500px;
+  text-align: center;
+  color: black !important;
+}
+
+#title {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+#imagesBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityImage {
+  width: 100px;
+  margin: 0.8em;
+}

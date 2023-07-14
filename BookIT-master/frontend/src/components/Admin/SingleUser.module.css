@@ -1,0 +1,23 @@
+.user {
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  border-radius: 10px;
+  margin: 1.2em;
+  padding: 2em;
+  width: 60em;
+}
+.user .detail {
+  font-weight: 600;
+  font-size: 1.3em;
+  padding-top: 0.2em;
+}
+
+.userContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
